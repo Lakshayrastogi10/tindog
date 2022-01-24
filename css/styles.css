@@ -1,0 +1,175 @@
+body {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+/*title*/
+#title {
+  background-color: #ff4c68;
+}
+.container-fluide {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+}
+.navitem {
+  margin: 20px;
+}
+.headd {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+.rotateimg75 {
+  margin: 40px;
+  width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.download-button {
+  margin: 5% 3%;
+}
+/*features*/
+#features {
+  padding: 7% 6%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.container-fluidc {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feat {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.log {
+  color: #ef8176;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.log:hover {
+  color: #c5495b;
+}
+/*testimonials*/
+
+.test {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+  color: #fff;
+}
+.dog {
+  margin: 20px 10px 5px 10px;
+  border-radius: 100%;
+  width: 13%;
+  padding-left: 5px;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8176;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+/*press*/
+
+#press {
+  text-align: center;
+  background-color: #ef8176;
+  padding: 3% 15%;
+}
+.press-logo {
+  width: 15%;
+  margin: 10px 20px 20px 20px;
+}
+/*picing*/
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+.price-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+.white-section {
+  text-align: center;
+}
+.pricesection-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+/*call to action*/
+#cta {
+  background-color: #ff4c68;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.cta-head {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+#footer {
+  text-align: center;
+  padding: 5% 15%;
+  background-color: #fff;
+}
+.foot-logo {
+  color: black;
+  padding: 2%;
+}
+/*formobile version of website*/
+@media (max-width: 1040px) {
+  .fendu {
+    transform: rotate(0);
+    position: static;
+    text-align: center;
+  }
+  #title {
+    text-align: center;
+  }
+}
